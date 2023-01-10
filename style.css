@@ -67,6 +67,7 @@ body > div {
 }
 
 .nav {
+    padding-top: 18px;
     display: flex;
     justify-content: space-around;
 }
@@ -78,6 +79,10 @@ ul {
     padding: 0;
     display: flex;
     gap: 20px;
+}
+
+li {
+    font-size: 16px;
 }
 
 .hero {
@@ -159,19 +164,35 @@ figcaption {
     margin: 60px 0;
     display: flex;
     justify-content: center;
-
+    align-items: center;
 }
 
 .form {
     background-color: #3882F6;
+    border-radius: 10px;
     display: flex;
+    flex-basis: 75%;
     justify-content: space-around;
-    gap: 100px;
-    width: 100%;
-    margin: 0 100px;
-}
-  
-p {
-    margin: 0;
+    align-items: center;
+    padding: 30px 30px;
 }
 
+.forth-text, .button {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.forth-main-text {
+    font-weight: bold;
+}
+
+.forth-secondary-text {
+    font-size: 16px;
+}
+
+.forth .button {
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 3px 20px;
+    font-weight: bold;
+}
